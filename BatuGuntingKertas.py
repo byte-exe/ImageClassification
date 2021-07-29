@@ -122,7 +122,7 @@ for fn in uploaded.keys():
   print(fn)
   if classes==0:
     print('paper')
-  elif classes >= 0:
+  elif classes > 0:
     print('rock')
   else:
     print('scissor')
